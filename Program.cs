@@ -43,6 +43,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-
-
-// "DefaultConnection": "Server=localhost;Database=finshark;User Id=sa;Password=Password@@1;"
