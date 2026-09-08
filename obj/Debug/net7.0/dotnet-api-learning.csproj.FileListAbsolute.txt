@@ -78,3 +78,5 @@
 /Users/nelsonchinedu/Documents/learning/dotnet-api-learning/bin/Debug/net7.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 /Users/nelsonchinedu/Documents/learning/dotnet-api-learning/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/nelsonchinedu/Documents/learning/dotnet-api-learning/bin/Debug/net7.0/Newtonsoft.Json.Bson.dll
+/Users/nelsonchinedu/Documents/learning/dotnet-api-learning/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/nelsonchinedu/Documents/learning/dotnet-api-learning/bin/Debug/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

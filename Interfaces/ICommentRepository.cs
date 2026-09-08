@@ -1,6 +1,5 @@
 using dotnet_api_learning.Models; 
 
-
 namespace dotnet_api_learning.Interfaces
 {
     public interface ICommentRepository
@@ -8,5 +7,10 @@ namespace dotnet_api_learning.Interfaces
         Task<List<Comment>> GetAllAsync();
 
         Task<Comment?> GetByIdAsync(int id);
+        Task<Comment> CreateAsync(Comment commentModel);
+
+        Task<Comment?> UpdateAsync(int id, Comment commentModel);
+
+        Task<Comment?> DeleteAsync(int id);
     }
 }
