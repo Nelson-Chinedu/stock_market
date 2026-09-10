@@ -34,6 +34,7 @@ namespace dotnet_api_learning.Controllers
         [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
+            if(!ModelState.IsValid) return BadRequest(ModelState);
             // var stocks = await _context.Stocks.ToListAsync();
             var stocks = await _stockRepo.GetAllAsync(query);
             // var stockDto = stocks.Data.Select(s => s.ToStockDto());
